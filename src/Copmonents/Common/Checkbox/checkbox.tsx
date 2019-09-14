@@ -5,7 +5,7 @@ export interface ICheckboxBasicExampleState {
   isChecked: boolean;
 }
 
-export class CheckboxBasicExample extends React.Component<{}, ICheckboxBasicExampleState> {
+export  default class CheckBox extends React.Component<{}, ICheckboxBasicExampleState> {
   constructor(props: {}) {
     super(props);
 
