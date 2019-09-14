@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { CheckboxBasicExample } from './checkbox';
+import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
+
+initializeIcons();
 
 const App: React.FC = () => {
   return (
@@ -18,6 +22,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <CheckboxBasicExample />
       </header>
     </div>
   );
