@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckBox  from '../Checkbox';
+import CheckBox  from '../Copmonents/Common/Checkbox';
 import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
 
 initializeIcons();
