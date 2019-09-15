@@ -1,15 +1,16 @@
 import React from 'react';
-import CheckBox  from '../Copmonents/Common/Checkbox';
 import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
-
+import AddBirds from '../Copmonents/Birds/AddBirds';
 initializeIcons();
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-        <CheckBox />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <AddBirds></AddBirds>
+      </div>
+    );
+  }
 }
 
 export default App;
